@@ -27,11 +27,13 @@ public class Loginpage {
 
 	public void enterUsername(String username)
 	{
+		System.out.println("hello");
 		objusername.sendKeys(username);
 		System.out.println("username open successfully");
 	}
 	public void enterPassword(String password)
 	{
+		System.out.println("hello");
 		objpassword.sendKeys(password);
 		System.out.println("password open successfully");
 	}
