@@ -19,6 +19,7 @@ public class FlightFinderpage {
 	
 	public void loadFlightfinderpage()
 	{
+		System.out.println("loadFlightfinderpage method under");
 		PageFactory.initElements(Config.driver, this);
 	}
 	public void verifyFlightFinderimg()
